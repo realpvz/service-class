@@ -2,6 +2,17 @@
 
 namespace Realpvz\ServiceClass;
 
-class ServiceClassProvider {
+use Illuminate\Support\ServiceProvider;
 
+class ServiceClassProvider extends ServiceProvider
+{
+    public function boot()
+    {
+
+    }
+
+    public function register()
+    {
+
+    }
 }
