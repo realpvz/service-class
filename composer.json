@@ -1,0 +1,25 @@
+{
+    "name": "realpvz/service-class",
+    "description": "Create service class with commands",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Realpvz\\ServiceClass\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iman Parvizi",
+            "email": "ipvz@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "laravel/framework": "^6.0|^7.0|^8.0"
+    },
+    "prefer-stable": true
+}
