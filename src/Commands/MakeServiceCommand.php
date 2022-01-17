@@ -180,8 +180,8 @@ if (!function_exists('{{functionName}}')) {
         $appServiceProviderPath = base_path('app/Providers/AppServiceProvider.php');
         $content = file_get_contents($appServiceProviderPath);
 //        $stringToFind = '::class);';
-        $stringToFind = `boot()
-    {`;
+        $stringToFind = 'boot()
+    {';
         $lastServicePosition = strrpos($content, $stringToFind) + strlen($stringToFind);
         $stringToAppend = PHP_EOL . '        ' . $newProviderTemplate;
         $newAppServiceProviderContent = substr_replace($content, $stringToAppend, $lastServicePosition, 0);
