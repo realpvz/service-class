@@ -66,7 +66,7 @@ if (!function_exists('{{functionName}}')) {
      */
     protected function getStub(): string
     {
-        return $this->resolveStubPath('../Stubs/service.stub');
+        return $this->resolveStubPath('/../Stubs/service.stub');
     }
 
     /**
