@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Realpvz\\ServiceClass\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers/service_helpers.php"
+        ]
     },
     "authors": [
         {

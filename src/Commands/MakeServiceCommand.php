@@ -169,7 +169,7 @@ if (!function_exists('{{functionName}}')) {
 
     private function addHelperFunction(): void
     {
-        $helperFilePath = base_path('app/Helpers/helpers.php');
+        $helperFilePath = __DIR__.'/../Helpers/service_helpers.php';
         file_put_contents($helperFilePath, $this->getHelperFunctionData(), FILE_APPEND | LOCK_EX);
     }
 
