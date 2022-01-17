@@ -29,14 +29,14 @@ if (!function_exists('{{functionName}}')) {
      *
      * @var string
      */
-    protected string $name = 'make:service';
+    protected $name = 'make:service';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected string $description = 'Create a new service class';
+    protected $description = 'Create a new service class';
 
     /**
      * The type of class being generated.
