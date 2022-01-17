@@ -43,7 +43,7 @@ if (!function_exists('{{functionName}}')) {
      *
      * @var string
      */
-    protected string $type = 'Service';
+    protected $type = 'Service';
 
     /**
      * @return void
