@@ -2,8 +2,8 @@
 
 namespace Realpvz\ServiceClass;
 
-use App\Console\Commands\MakeServiceCommand;
 use Illuminate\Support\ServiceProvider;
+use Realpvz\ServiceClass\Commands\MakeServiceCommand;
 
 class ServiceClassProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Realpvz\ServiceClass\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
