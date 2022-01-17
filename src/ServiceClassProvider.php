@@ -17,9 +17,7 @@ class ServiceClassProvider extends ServiceProvider
             __DIR__ . '/Stubs' => resource_path('/stubs'),
         ], 'stubs');
 
-        if ($this->app->runningInConsole()) {
-            $this->commands(self::$commandNames);
-        }
+        $this->commands(self::$commandNames);
     }
 
     public function register()
